@@ -15,3 +15,4 @@ localStorage.removeItem("name")
 console.log(a);
 console.log(b);
 console.log(localStorage.length)
+//sessional storage
