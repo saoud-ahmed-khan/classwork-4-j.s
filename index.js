@@ -17,4 +17,8 @@ console.log(a);
 console.log(b);
 console.log(localStorage.length)
 //sessional storage
-// sessionStorage.setItem("my value" , "this is my value");
+// 
+
+let arr=['saoud','kinza','farman'];
+let [,secondname]=arr;
+console.log(secondname)
