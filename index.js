@@ -22,3 +22,7 @@ console.log(localStorage.length)
 let arr=['saoud','kinza','farman'];
 let [,secondname]=arr;
 console.log(secondname)
+
+let newobject={
+    
+}
