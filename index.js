@@ -69,4 +69,6 @@ const items=
 
 ]
 
-let maparrry= items.map((item,index)=>console.log(index))
+// let maparrry= items.map((item,index)=>console.log(index))
+// const filterarry=items.filter((item)=>{return item.price <= 100}) 
+//  console.log(filterarry)
