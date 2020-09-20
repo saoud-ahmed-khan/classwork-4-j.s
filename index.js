@@ -55,4 +55,17 @@
 // // }
 // // console.log(spread)
 // let {name, ...restvalue}= newobj
-// console.log(restvalue)
+
+////////////////map
+const items=
+[
+    {name:'bike', price:'100'},
+    {name:'car', price:'300'},
+    {name:'plane', price:'500'},
+    {name:'cake', price:'40'},
+    {name:'cup', price:'130'},
+    {name:'duck', price:'200'},
+    {name:'he', price:'10'},
+
+
+]
