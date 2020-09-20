@@ -1,13 +1,13 @@
-const obj={
-    name:"saoud",
-    lname:"khan"
+const obj = {
+    name: "saoud",
+    lname: "khan"
 }
 //to save value in local storage
-localStorage.setItem("name","saoud")
-localStorage.setItem("fname",'mehmood')
+localStorage.setItem("name", "saoud")
+localStorage.setItem("fname", 'mehmood')
 //to get valcu from local storage
-let a=localStorage.getItem("name");
-let b=localStorage.getItem("fname");
+let a = localStorage.getItem("name");
+let b = localStorage.getItem("fname");
 //removing
 // localStorage.removeItem("name")
 // localStorage.removeItem("fname");
@@ -19,10 +19,26 @@ console.log(localStorage.length)
 //sessional storage
 // 
 
-let arr=['saoud','kinza','farman'];
-let [,secondname]=arr;
+let arr = ['saoud', 'kinza', 'farman'];
+let [, secondname] = arr;
 console.log(secondname)
 
-let newobject={
-    
+let newobject = 
+{
+    name:'saaoud',
+    fname:'mehmood',
+    city:'karachi',
+    town:'orangi',
+    hobies: {
+                sports:'cricket',
+                food:'pizza',
+                dish:'karahi'
+           }
 }
+
+let {name}=newobject;
+console.log(name)
+let {hobies}=newobject
+console.log(hobies)
+let{dish}=hobies
+console.log(dish)
