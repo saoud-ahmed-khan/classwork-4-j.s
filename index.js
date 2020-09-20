@@ -67,5 +67,6 @@ const items=
     {name:'duck', price:'200'},
     {name:'he', price:'10'},
 
-
 ]
+
+let maparrry= items.map((item)=>console.log(item.price))
