@@ -70,10 +70,10 @@ const items=
 ]
 
 // let maparrry= items.map((item,index)=>console.log(index))
-// const filterarry=items.filter((item)=>{return item.price <= 100}) 
-//  console.log(filterarry)
+const filterarry=items.filter((item)=>{return item.price <= 100}) 
+ console.log(filterarry)
 
 // let filtearray= items.filter((item)=>{return item.name==="cake"})
 // console.log(filtearray)
-let findarry= items.find((item)=>{return item.price<=100})
-console.log(findarry)
+// let findarry= items.find((item)=>{return item.price<=100})
+// console.log(findarry)
