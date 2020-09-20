@@ -65,10 +65,13 @@ const items=
     {name:'cake', price:'40'},
     {name:'cup', price:'130'},
     {name:'duck', price:'200'},
-    {name:'he', price:'10'},
+    {name:'hen', price:'10'},
 
 ]
 
 // let maparrry= items.map((item,index)=>console.log(index))
 // const filterarry=items.filter((item)=>{return item.price <= 100}) 
 //  console.log(filterarry)
+
+let filtearray= items.filter((item)=>{return item.name==="cake"})
+console.log(filtearray)
