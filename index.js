@@ -69,4 +69,4 @@ const items=
 
 ]
 
-let maparrry= items.map((item)=>console.log(item.price))
+let maparrry= items.map((item,index)=>console.log(index))
