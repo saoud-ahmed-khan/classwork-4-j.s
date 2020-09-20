@@ -42,3 +42,15 @@ let {hobies}=newobject
 console.log(hobies)
 let{dish}=hobies
 console.log(dish)
+let newobj={
+    name:'saaoud',
+    fname:'mehmood',
+    city:'karachi',
+    town:'orangi',
+}
+let spread=
+{
+    ...newobj,
+    hoby:'cooking'
+}
+console.log(spread)
